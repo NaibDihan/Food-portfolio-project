@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+.first-section{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 90%; 
+    margin: 0 auto;
+}
+.section1{
+    width: 40%;
+    padding:2% 5%;
+}
+.section1 img{
+    width: 80%;
+    
+}
+.section1 h1{
+    margin: 4% 0;
+    font-size: 41px;
+}
+.section1 p{
+    margin: 4% 0;
+    font-size: 21px;
+}
+.section1 .top-margin{
+    margin-top:150px ;
+}
+.text-color{
+    color: red;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    padding: 2% 4%;
+    color: white;
+    font-size: 19px;
+    border-radius: 50px;
+    
+}
+
+.second-section{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size: 35px;
+}
+p.section2-p{
+    margin-bottom:100px;
+    font-size: 19px;
+}
+
+.text-recipies{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+.text-recipies h2{
+    margin: 40px 0;
+}
+.text-recipies p{
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+.recipies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.recipe{
+    width: 25%;
+    margin: 20px 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 25px;
+}
+.recipe img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.recipe-description h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.recipe-description p{
+    font-size: 18px;
+}
+.normal-text-div{
+    margin: 150px auto;
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+
+.normal-text{
+     margin: 50px 170px;
+}
+
+.footer-section{
+    background-color: black;
+    padding: 50px 0;
+}
+.center h3{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom:20px ;
+}
+.center p{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
