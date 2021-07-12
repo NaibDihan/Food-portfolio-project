@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Poppins', 'sans-serif';
 }
+section{
+    padding-bottom: 120px;
+}
 .first-section{
     background-image: url(images/Frame\ 58.jpg);
     background-repeat: no-repeat;
